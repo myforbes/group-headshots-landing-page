@@ -1,0 +1,217 @@
+---
+# Page Configuration
+title: "Group Headshots | Marquel Yvette Photography"
+description: "Magazine-quality corporate headshots by an expert photographer. 8+ years serving Fortune 500 companies with premium executive team photography."
+keywords: "group headshots, corporate photography, executive headshots, team photography, professional headshots, business photography"
+author: "Marquel Yvette Photography"
+
+# SEO Meta Tags
+meta:
+  robots: "index, follow"
+  canonical: "https://marquelyvet Photography.com/group-headshots"
+  og:
+    title: "Professional Group Headshots | Marquel Yvette Photography"
+    description: "Capture the strength and professionalism of your team with modern, clean group headshots that represent your company's excellence."
+    image: "https://marquelyvet Photography.com/images/hero-group-headshots.jpg"
+    url: "https://marquelyvet Photography.com/group-headshots"
+    type: "website"
+  twitter:
+    card: "summary_large_image"
+    title: "Professional Group Headshots | Marquel Yvette Photography"
+    description: "Capture the strength and professionalism of your team with modern, clean group headshots."
+    image: "https://marquelyvet Photography.com/images/hero-group-headshots.jpg"
+
+# Page Content Configuration
+sections:
+  hero:
+    enabled: true
+    title: "Give Your Team What They Deserve: Magazine-Quality Headshots by an Expert"
+    subtitle: "With 8+ years perfecting corporate group photography and 200+ executive teams photographed, I deliver the consistency, expertise, and professionalism that Fortune 500 companies demand."
+    cta_primary: "Request Quote"
+    cta_secondary: "Individual Headshots"
+    background_image: "hero-group-headshots.jpg"
+
+  benefits:
+    enabled: true
+    title: "Why Executive Teams Choose Marquel Yvette"
+    items:
+      - icon: "👥"
+        title: "Proven Track Record"
+        description: "200+ executive teams photographed including C-suite leaders from tech, finance, and healthcare industries. Featured photographer for 3 Fortune 500 annual reports."
+      - icon: "⚡"
+        title: "Corporate Specialist"
+        description: "Unlike general photographers, I exclusively focus on corporate headshots. My lighting setup and direction techniques are specifically refined for business professionals."
+      - icon: "🎯"
+        title: "Executive-Level Service"
+        description: "Direct communication, no assistants. I personally handle every detail from planning to delivery, ensuring the white-glove service your leadership deserves."
+
+  process:
+    enabled: true
+    title: "My Corporate Photography Expertise"
+    steps:
+      - number: "01"
+        title: "Strategic Planning"
+        description: "I personally scout locations, design lighting setups, and create detailed shot lists that align with your brand guidelines and executive presence goals."
+      - number: "02"
+        title: "Executive Direction"
+        description: "My coaching techniques help even camera-shy executives look confident and approachable. 8 years of experience reading body language and optimizing poses."
+      - number: "03"
+        title: "Consistent Excellence"
+        description: "Proprietary lighting formula ensures every team member looks their best while maintaining visual consistency across the entire group."
+      - number: "04"
+        title: "Brand-Level Editing"
+        description: "Professional retouching that enhances without looking artificial. Every image receives the same meticulous attention I give to magazine covers."
+
+  about_me:
+    enabled: true
+    title: "Meet Your Corporate Photography Expert"
+    name: "Marquel Forbes"
+    subtitle: "Professional Headshot Photographer | Loudoun County, Virginia"
+    location: "South Riding, VA"
+    studio_location: "Chantilly, VA (minutes from Dulles Airport)"
+    experience_years: "8+"
+    teams_photographed: "200+"
+    image: "marquel-photo.jpg"
+    bio_paragraphs:
+      - "Based in South Riding, VA, I specialize in corporate, executive, and professional headshots for the Washington DC Metro area. My studio in Chantilly is just minutes from Dulles Airport, making it convenient for busy executives and teams."
+      - "I understand that many people feel uncomfortable being photographed. That's why my approach focuses on making every session enjoyable and relaxing, helping you feel at ease so your authentic personality shines through. My goal is simple: create headshots that communicate confidence, credibility, and leadership."
+      - "With 8+ years perfecting my craft and 200+ executive teams photographed, I've developed specialized techniques that help even the most camera-shy professionals look their absolute best. Every session is designed to capture not just how you look, but who you are as a leader."
+    contact:
+      email: "marquel@marquelyvette.com"
+      phone: "(703) 957-0643"
+    philosophy: "Making photo sessions enjoyable and relaxing to capture authentic personality"
+    goals: ["confidence", "credibility", "leadership"]
+
+  behind_the_scenes:
+    enabled: true
+    title: "My Professional Setup"
+    description: "This is my mobile studio setup that I bring to your office. Professional Profoto lighting, multiple backdrop options, and precision positioning tools that ensure every executive looks like they stepped off a magazine cover."
+    image: "bts-group-session.jpg"
+
+  call_to_action:
+    enabled: true
+    title: "Ready to Work with the Corporate Headshot Specialist?"
+    description: "Join the 200+ executive teams who trust me to capture their professional image. Available for immediate booking."
+    primary_button: "Request Your Quote"
+    secondary_button: "Call Now"
+
+  individual_redirect:
+    enabled: true
+    title: "Looking for Individual Headshots?"
+    description: "We also specialize in personal branding photography for professionals."
+    button_text: "Explore Individual Sessions"
+    link: "individual-headshots.html"
+
+# Contact Information
+contact:
+  email: "marquel@marquelyvette.com"
+  phone: "(703) 957-0643"
+  website: "https://marquelyvette.com"
+
+# Business Information
+business:
+  name: "Marquel Yvette Photography"
+  tagline: "Corporate headshot specialist for Fortune 500 companies"
+  experience_years: "8+"
+  teams_photographed: "200+"
+  core_services:
+    - "Corporate Team Headshots"
+    - "Executive Photography"
+    - "Recurring New Hire Headshots"
+    - "Corporate Group Photos"
+  
+  service_areas:
+    - "Fortune 500 Photography"
+    - "C-Suite Portraits"
+    - "Leadership Team Photography"
+    - "Corporate Branding Photography"
+    - "Annual Report Photography"
+
+# Technical Configuration
+technical:
+  css_file: "styles.css"
+  fonts:
+    - "Inter"
+    - "Playfair Display"
+  animations: true
+  fade_in_effects: true
+  responsive: true
+  accessibility: true
+  performance_optimized: true
+
+# Image Assets Required
+required_images:
+  - "hero-group-headshots.jpg"
+  - "bts-group-session.jpg"
+  - "marquel-photo.jpg"
+  - "logo.png"
+
+# Analytics & Tracking
+analytics:
+  google_analytics: "" # Add GA tracking ID
+  facebook_pixel: "" # Add FB pixel ID
+  
+# Services Offered
+services:
+  primary:
+    - name: "Corporate Team Headshots"
+      description: "Professional headshots for entire teams, maintaining brand consistency"
+      locations: ["On-location", "In-studio", "Office"]
+      turnaround: "48-72 hours"
+      includes: ["Professional retouching", "Multiple format delivery", "Brand guideline compliance"]
+    
+    - name: "Recurring New Hire Headshots"
+      description: "Ongoing photography services for new team members"
+      benefits: ["Consistent professional image", "Streamlined onboarding", "Brand continuity"]
+      scheduling: "Flexible recurring appointments"
+    
+    - name: "Corporate Group Photos"
+      description: "Traditional group photography showcasing company unity"
+      purpose: "Put a face to your brand and showcase team cohesion"
+    
+    - name: "Executive Photography"
+      description: "Specialized photography for C-suite and leadership teams"
+      focus: "Authority, approachability, and executive presence"
+
+  additional_offerings:
+    - "Professional hair and makeup artist coordination"
+    - "Immediate image selection during sessions"
+    - "High-volume pricing for large teams"
+    - "Nationwide service availability"
+    - "Custom background options (white, black, grey, branded)"
+    - "Comprehensive retouching included"
+    - "Multiple file format delivery"
+    - "Brand guideline consultation"
+
+# Unique Differentiators
+differentiators:
+  - "8+ years exclusively in corporate photography"
+  - "200+ executive teams photographed"
+  - "Featured photographer for Fortune 500 annual reports"
+  - "Mobile studio setup for on-site convenience"
+  - "Executive coaching and posing expertise"
+  - "48-72 hour turnaround standard"
+  - "98% client retention rate"
+  - "Direct photographer communication (no assistants)"
+
+# Target Clients
+target_clients:
+  - "Fortune 500 companies"
+  - "C-suite executives"
+  - "Leadership teams"
+  - "Corporate HR departments"
+  - "Marketing departments"
+  - "Tech companies"
+  - "Finance industry"
+  - "Healthcare organizations"
+
+# Schema Markup
+schema:
+  type: "LocalBusiness"
+  category: "Corporate Photographer"
+  services:
+    - "Corporate Team Headshots"
+    - "Executive Photography"
+    - "Recurring New Hire Headshots"
+    - "Corporate Group Photos"
+---
